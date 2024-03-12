@@ -1,7 +1,7 @@
 import json
 import requests
 
-URL="http://127.0.0.1:8000/stucreate/"
+URL = "http://127.0.0.1:8000/stucreate/"
 
 data = {
     'name':'Shubham',
