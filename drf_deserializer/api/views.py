@@ -21,4 +21,4 @@ def student_create(request):
             return HttpResponse(json_data, content_type='application/json')
         
         json_data = JSONRenderer().render(serializer.errors)
-        return HttpResponseBadRequest(json_data,content_type="application/json")
+        return HttpResponse(json_data,content_type="application/json")
